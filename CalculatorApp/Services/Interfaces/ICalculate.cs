@@ -3,5 +3,7 @@
     internal interface ICalculate
     {
         double Add(double number1, double number2);
+
+        double Minus(double number1, double number2);
     }
 }

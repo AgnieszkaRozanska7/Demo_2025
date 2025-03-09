@@ -11,6 +11,7 @@ namespace CalculatorApp
             ICalculate calculate = new Calculate();
 
             Console.WriteLine($"Wynik dodawania: {calculate.Add(10, 15)}");
+            Console.WriteLine($"Wynik odejmowania: {calculate.Minus(10, 15)}");
             Console.ReadLine();
         }
     }
