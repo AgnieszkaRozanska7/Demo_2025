@@ -11,6 +11,8 @@ namespace CalculatorApp
             ICalculate calculate = new Calculate();
 
             Console.WriteLine($"Wynik dodawania: {calculate.Add(10, 15)}");
+            Console.WriteLine($"Wynik mnozenia: {calculate.Multiply(10, 15)}");
+
             Console.ReadLine();
         }
     }
